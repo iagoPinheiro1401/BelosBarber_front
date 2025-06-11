@@ -10,6 +10,7 @@ import Button from "@/components/form/Button";
 import Checkbox from "@/components/form/Checkbox";
 import H1 from "@/components/typography/H1";
 import H3 from "@/components/typography/H3";
+import { useRouter } from "next/navigation";
 
 const Container = styled.div`
   width: 100%;
@@ -38,6 +39,7 @@ export default function SignupPage() {
     const { register, handleSubmit, reset } = useForm()
     const [ clienteSelected, isClienteSelected ] = useState(false)
     const [ barbeiroSelected, isBarbeiroSelected ] = useState(false)
+    const router = useRouter()
 
     const onSubmit = async (data) => {
         let url = ''
@@ -82,7 +84,7 @@ export default function SignupPage() {
         <Input placeholder="Telefone" {...register("Telefone")} />
         <Input placeholder="Senha" type="password" {...register("Senha")} />
         <Button type="submit">Cadastrar</Button>
-        <H3>Já é cadastrado? Faça o login</H3>
+        <H3 onClick={() => router.push("/login")}>Já é cadastrado? <H3 color="#FF7000" pointer>Faça o login</H3></H3>
       </Form>
     </Container>
   );

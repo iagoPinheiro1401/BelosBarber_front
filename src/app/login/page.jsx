@@ -73,7 +73,6 @@ const handleSubmit = async (e) => {
   }
 };
 
-
   return (
     <Container>
       <img src="/logo.png" alt="Logo" />
@@ -94,7 +93,7 @@ const handleSubmit = async (e) => {
         {erro && <H3 color="red">{erro}</H3>}
         <TextContainer>
           <H3>Ainda não é cadastrado?</H3>
-          <H3 color="#FF7000">Cadastre-se</H3>
+          <H3 color="#FF7000" onClick={() => router.push("/signup")} pointer>Cadastre-se</H3>
         </TextContainer>
         <Button type="submit">Login</Button>
       </Form>
