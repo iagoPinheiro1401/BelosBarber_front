@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useAuthContext } from "@/contexts/authContext";
 
 import Input from "@/components/form/Input";
 import H1 from "@/components/typography/H1";

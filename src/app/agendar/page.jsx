@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useAuthContext } from "@/contexts/authContext";
 import useLimiteDeDatas from "@/hooks/useLimiteDatas";
 
 import Input from "@/components/form/Input";

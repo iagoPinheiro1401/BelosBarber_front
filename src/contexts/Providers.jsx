@@ -1,6 +1,6 @@
 'use client';
 
-import { AuthProvider } from "@/contexts/AuthContext";
+import { AuthProvider } from "./authContext";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`

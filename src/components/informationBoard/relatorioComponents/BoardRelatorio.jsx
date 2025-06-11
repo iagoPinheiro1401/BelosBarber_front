@@ -9,7 +9,7 @@ import H3 from "@/components/typography/H3";
 import Select from "@/components/form/Select";
 import Button from "@/components/form/Button";
 
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useAuthContext } from "@/contexts/authContext";
 
 const Container = styled.div`
   width: 40%;

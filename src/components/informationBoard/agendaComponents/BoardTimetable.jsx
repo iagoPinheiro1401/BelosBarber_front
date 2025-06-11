@@ -8,7 +8,7 @@ import Horarios from "./Horarios";
 import Input from "@/components/form/Input";
 import Menu from "../Menu";
 
-import { useAuthContext } from "@/contexts/AuthContext";
+import { useAuthContext } from "@/contexts/authContext";
 
 const Container = styled.div`
   width: 40%;
