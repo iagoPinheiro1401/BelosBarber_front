@@ -30,19 +30,19 @@ export default function Menu({ page }) {
   return (
     <Container>
       <StyledScissorsIcon
-        size={50}
+        size={40}
         color={page === "Serviços" ? "#FF7000" : "#949494"}
         weight="fill"
         onClick={() => router.push("/servicos")}
       />
       <StyledCalendarIcon
-        size={50}
+        size={40}
         color={page === "Agenda" ? "#FF7000" : "#949494"}
         weight="fill"
         onClick={() => router.push("/agenda")}
       />
       <StyledChartLineIcon
-        size={50}
+        size={40}
         color={page === "Relatórios" ? "#FF7000" : "#949494"}
         weight="fill"
         onClick={() => router.push("/relatorio")}

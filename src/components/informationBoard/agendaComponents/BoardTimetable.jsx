@@ -23,7 +23,7 @@ const Container = styled.div`
 `
 
 const Title = styled.h2`
-  font-size: 27px;
+  font-size: 25px;
   font-weight: bold;
   color: #E0E0E0;
 `

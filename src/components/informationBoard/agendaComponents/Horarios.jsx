@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { CalendarIcon } from "@phosphor-icons/react/dist/ssr";
 
 const Container = styled.div`
-    width: 70%;
-    height: 90px;
+    width: 80%;
+    height: 100px;
     padding: 0 20px;
     background-color: #404040;
     border-radius: 10px;
