@@ -80,10 +80,10 @@ export default function BoardTimetable({ title }) {
 
     <ServicesContainer>
     {horarios.length > 0 ? (
-        horarios.map(({ Cliente, Hora, Servicos, Preco }, index) => (
+        horarios.map(({ clientes, Hora, Servicos, Preco }, index) => (
         <Horarios
             key={index}
-            cliente={Cliente}
+            cliente={clientes}
             horario={Hora}
             servico={Servicos}
             preco={Preco}
