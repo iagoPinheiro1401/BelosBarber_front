@@ -14,7 +14,7 @@ import Button from "@/components/form/Button";
 const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #1E1D1D;
   display: flex;
   align-items: center;
   justify-content: center;
